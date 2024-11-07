@@ -1,23 +1,23 @@
-# Mi Primer Proyecto de HTML 🤓
+# My First HTML project 🤓
 
-Este es un proyecto de práctica inicial que sirve para mostrar los aspectos básicos de una estructura de HTML. 
-El objetivo es mostrar con claridad los elementos y atributos más comunmente usados en una página HTML para que nuevas personas entusiastas se familiaricen con esta estructura.
+This is an initial practice project aiming to present the basic aspects of an HTML structure.
+The goal is to show with clarity the most commonly used elements and attributes for an HTML webpage, hoping that new enthusiasts can get familiar with it.
 
-## 📜 Estructura del proyecto
+## 📜 Project structure
 
-- Clase-29-10-2024 : Contiene un primer ejercicio de estructura de HTML con notas que explican cada elemento llamado 'mi-primer-html.html'
-    - img : Contiene las imágenes de esta página
+- Clase-29-10-2024 : Contains a first excercise of an HTML structure with notes that explain each element. Called 'mi-primer-html.html'
+    - img : Contains the figures of this web page
       
-- Clase-30-10-2024 : Contiene un archivo HTML de prueba usado para probar versiones en Git.
+- Clase-30-10-2024 : Contains an HTML test file used for practicing saving and uploading versions in Git and GitHub
 
-- HTML-DEVF : Contiene el proyecto final del módulo en 'index.html'
+- HTML-DEVF : Contains the final project of the module in 'index.html'
 
-### 💻 Instalación
+### 💻 Install
 
-1. Clonar repositorio:
+1. Clone repository:
         git clone https://github.com/ImaFuentes10/FrontEnd1-imafuentes.git
 
-2. Abrir 'HTML-DEVF' > 'index.html' en tu navegador
+2. Open 'HTML-DEVF' > 'index.html' in your browser
 
-- Adicionalmente se pueden consultar las notas explicatoris de los elementos de HTML en el código de 'Clase-29-10-2024/mi-primer-html.html'
+- You can additionally look at the explanatory notes of the HTML elements inside the code of 'Clase-29-10-2024/mi-primer-html.html'
         
