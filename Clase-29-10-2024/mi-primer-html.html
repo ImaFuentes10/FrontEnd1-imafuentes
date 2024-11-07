@@ -25,16 +25,40 @@ Contiene información que el navegador usa pero que los usuarios no ven directam
     Esta es una mala práctica porque no está etiquetado el texto.
     <!-- <span> es un contenedor genèrico, para dar otros formatos a textos o cosas así -->
     <p>Aquì sì està marcado el párrafo <span>Resaltar</span></p> 
-    <li>uno</li>
-    <li>dos</li>
-    <li>tres</li>
+    <!-- <ol> lista ordenada / <li> elemento de la lista-->
+    <ol>        
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+    </ol>
+    <!-- <ul>  lista no ordenada-->
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <!-- visualizamos diferencia entre elementos de lista solos, ordenados o desordenados -->
+    <li>X</li>
+    <li>Y</li>
+    <li>Z</li>
+    <!-- <figure> bloque para atributos de la figura -->
+    <figure>
     <!-- src=source, donde está la imagen 
      alt=alternative, texto alternativo
      title de la imagen que se ve al pasar cursor
      width y height dan el tamaño / px=pixeles / % de tamaño es màs flexible-->
-    <img src="./img/Mobula saltando.jpeg" alt="Esta es una imagen de una mobula saltando" 
+     <img src="./img/Mobula saltando.jpeg" alt="Esta es una imagen de una mobula saltando" 
     title="Mobula saltando" width="40%" height="20%">
+    <!-- <figcaption> Pie de foto -->
+    <figcaption>Mobula saltando captada en la Ventana</figcaption>
+</figure>
     <img src="img/BasicConventionalIberianbarbel-size_restricted.gif" 
     alt="Este es un GIF de un microscopio"> <title>GIF microscopio</title width=250px height=150px>
-</body>
+        <!-- Sección de "Sobre Nosotros" -->
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+             <!-- Párrafo informativo -->
+            <p>Somos una empresa dedicada a la creación de contenido educativo en tecnología.</p>
+        </section>
+    </body>
 </html>
