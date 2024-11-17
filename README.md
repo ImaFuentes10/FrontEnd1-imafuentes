@@ -1,23 +1,28 @@
 # My First HTML project 🤓
 
 This is an initial practice project aiming to present the basic aspects of an HTML structure.
-The goal is to show with clarity the most commonly used elements and attributes for an HTML webpage, hoping that new enthusiasts can get familiar with it.
+The goal is to show with clarity the most commonly used elements and attributes for an HTML webpage, hoping that new enthusiasts can get familiar with it. All files contain notes explaining basic strutures, attributes and elements used in an HTML file.
+
+* Website can be accessed through the following Github Pages link: https://imafuentes10.github.io/FrontEnd1-imafuentes/
 
 ## 📜 Project structure
 
-- Clase-29-10-2024 : Contains a first excercise of an HTML structure with notes that explain each element. Called 'mi-primer-html.html'
-    - img : Contains the figures of this web page
-      
-- Clase-30-10-2024 : Contains an HTML test file used for practicing saving and uploading versions in Git and GitHub
+- 'index' : HTML site with links to all other sites
 
-- HTML-DEVF : Contains the final project of the module in 'index.html'
+- Clase-29-10-2024 : Contains my first HTML page practice. This one opens with file: 'mi-primer-html.html'
+
+- Pagina-personal : Contains a basic page with my information
+      
+- Hobbies : Contains a page with my hobbies
+
+- Receta : Contains my recipe for a bolognese lasagna
 
 ### 💻 Install
 
 1. Clone repository:
         git clone https://github.com/ImaFuentes10/FrontEnd1-imafuentes.git
 
-2. Open 'HTML-DEVF' > 'index.html' in your browser
+2. Open 'index.html' in a browser
 
-- You can additionally look at the explanatory notes of the HTML elements inside the code of 'Clase-29-10-2024/mi-primer-html.html'
+
         
