@@ -2,63 +2,103 @@
 Doctype le dice al navegador que el documento està escrito en HTML5.
 -->
 <!DOCTYPE html>
+
 <!-- <html lang="en">
 Es el elemento raíz que indica que el contenido está en algùn idioma
 en=inglés / es=español
  -->
 <html lang="es">
+
 <!-- <head>
 Contiene información que el navegador usa pero que los usuarios no ven directamente
 -->
+
 <head>
+
     <!--  <meta charset="UTF-8"> es el encriptado, com interpretar los caracteres en pantalla -->
     <meta charset="UTF-8">
-     <!-- viewport=espacio navegador; content ajustado al dispositivo; initial-scale normal en este caso  -->
+
+    <!-- viewport=espacio navegador; content ajustado al dispositivo; initial-scale normal en este caso  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- <title> es el tìtulo de la página, visto en la pestaña del navegador -->
     <title>Mi Primer Sitio Web</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
+
 <!-- <body> es el àrea principal donde se coloca el contenido visible (texto, imágenes, párrafos, etc.) -->
+
 <body>
     <h1>Mi primera página web</h1>
     <p>Este representa un párrafo de texto.</p>
     Esta es una mala práctica porque no está etiquetado el texto.
+
     <!-- <span> es un contenedor genèrico, para dar otros formatos a textos o cosas así -->
-    <p>Aquì sì està marcado el párrafo <span>Resaltar</span></p> 
+    <p>Aquì sì està marcado el párrafo <span>Resaltar</span></p>
+
     <!-- <ol> lista ordenada / <li> elemento de la lista-->
-    <ol>        
+    <ol>
         <li>uno</li>
         <li>dos</li>
         <li>tres</li>
     </ol>
+
     <!-- <ul>  lista no ordenada-->
     <ul>
         <li>A</li>
         <li>B</li>
         <li>C</li>
     </ul>
+
     <!-- visualizamos diferencia entre elementos de lista solos, ordenados o desordenados -->
     <li>X</li>
     <li>Y</li>
     <li>Z</li>
+
     <!-- <figure> bloque para atributos de la figura -->
     <figure>
-    <!-- src=source, donde está la imagen 
+
+        <!-- src=source, donde está la imagen 
      alt=alternative, texto alternativo
      title de la imagen que se ve al pasar cursor
      width y height dan el tamaño / px=pixeles / % de tamaño es màs flexible-->
-     <img src="./img/Mobula saltando.jpeg" alt="Esta es una imagen de una mobula saltando" 
-    title="Mobula saltando" width="40%" height="20%">
-    <!-- <figcaption> Pie de foto -->
-    <figcaption>Mobula saltando captada en la Ventana</figcaption>
-</figure>
-    <img src="img/BasicConventionalIberianbarbel-size_restricted.gif" 
-    alt="Este es un GIF de un microscopio"> <title>GIF microscopio</title width=250px height=150px>
-        <!-- Sección de "Sobre Nosotros" -->
-        <section id="about">
-            <h2>Sobre Nosotros</h2>
-             <!-- Párrafo informativo -->
-            <p>Somos una empresa dedicada a la creación de contenido educativo en tecnología.</p>
-        </section>
-    </body>
+        <img src="./img/Mobula saltando.jpeg" alt="Esta es una imagen de una mobula saltando" title="Mobula saltando"
+            width="40%" height="20%">
+
+        <!-- <figcaption> Pie de foto -->
+        <figcaption>Mobula saltando captada en la Ventana</figcaption>
+    </figure>
+
+    <img src="img/BasicConventionalIberianbarbel-size_restricted.gif" alt="Este es un GIF de un microscopio">
+    <title>GIF microscopio</title width=250px height=150px>
+
+    <!-- Sección de "Sobre Nosotros" -->
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+
+        <!-- Párrafo informativo -->
+        <p>Somos una empresa dedicada a la creación de contenido educativo en tecnología.</p>
+    </section>
+
+    <!-- br es un salto de párrafo -->
+    <br>
+
+    <!-- footer o pie de página, en este caso contiene copyright y enlaces a redes del creador -->
+    <footer>
+        <p>
+            &#169 2024 Imanol Fuentes. Todos los derechos reservados.
+            <a href="https://www.linkedin.com/in/imanolfuentes/">
+                <i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://github.com/ImaFuentes10" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+
+            <a href="mailto:ima.fuentes.c@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i></a>
+        </p>
+    </footer>
+</body>
+
 </html>
